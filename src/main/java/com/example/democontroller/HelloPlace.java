@@ -11,8 +11,6 @@ public class HelloPlace {
             @PathVariable String provincia,
             @RequestParam(required = false, defaultValue = " ") String saluto) {
         return new User(nome, provincia, saluto);
-  //      return "Ciao " + nome + ", com'è il tempo in " + provincia + "?";
-
     }
 }
 
